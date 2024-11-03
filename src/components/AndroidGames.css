@@ -1,0 +1,33 @@
+/* Optional: You may customize these styles further as needed */
+
+.bg-gradient-to-br {
+    background: linear-gradient(to bottom right, #2e2c50, #43345e);
+}
+
+.bg-gradient-to-br1{
+    background: linear-gradient(to bottom right, #2e2c50, #43345e);
+}
+button {
+    cursor: pointer;
+}
+
+.project-card {
+    transition: transform 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    backdrop-filter: blur(5px);
+}
+
+.bg-opacity-70 {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjusted for better visibility */
+}
+
+.bg-green-500 {
+    background-color: #28a745; /* Bootstrap-like green */
+}
+
+.bg-green-600:hover {
+    background-color: #218838; /* Darker green on hover */
+}
