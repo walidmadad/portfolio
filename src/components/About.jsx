@@ -28,7 +28,7 @@ const About = () => {
                     <span
                         className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent transition duration-500 ease-in-out">
                         <Typical
-                            steps={['Java', 3000, 'React', 3000, 'PHP', 3000, 'HTML', 3000, 'CSS', 3000, 'JavaScript', 3000, 'Node.js']}
+                            steps={['Java', 5000, 'React', 5000, 'PHP', 5000, 'HTML', 5000, 'CSS', 5000, 'JavaScript', 5000, 'Node.js']}
                             loop={Infinity}
                             wrapper="span"
                         />

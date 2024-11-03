@@ -49,7 +49,7 @@ const ProjectDetail2 = () => {
                 {selectedImage && (
                     <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
                         <div className="relative">
-                            <img src={selectedImage} alt="Selected" className="  rounded-lg shadow-lg" />
+                            <img src={selectedImage} alt="Selected" className=" max-h-96 rounded-lg shadow-lg" />
                             <button onClick={closeImage} className="absolute top-2 right-2 text-green-600 text-4xl font-bold hover:text-green-800">&times;</button>
                         </div>
                     </div>
